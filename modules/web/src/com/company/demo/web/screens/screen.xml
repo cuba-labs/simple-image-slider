@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.company.demo.web.screens.Screen"
+        messagesPack="com.company.demo.web.screens">
+    <dialogMode height="600"
+                width="800"/>
+    <layout>
+        <hbox id="sliderBox" spacing="true">
+            <linkButton id="prevBtn" icon="font-icon:CARET_LEFT" invoke="prevImage" align="MIDDLE_LEFT"/>
+            <embedded id="image" width="480px" height="270px"/>
+            <linkButton id="nextBtn" icon="font-icon:CARET_RIGHT" invoke="nexImage" align="MIDDLE_RIGHT"/>
+        </hbox>
+    </layout>
+</window>
